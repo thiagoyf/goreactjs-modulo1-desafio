@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Post from './Post';
 
-import './style.scss';
-
 class App extends Component {
   state = {
     posts: [],

@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 
 import PostHeader from './PostHeader';
 
-import './style.scss';
-
 const Post = (props) => {
   const { post } = props;
   const postHeader = { img: post.img, author: post.author, createdAt: post.createdAt };
