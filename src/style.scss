@@ -13,6 +13,7 @@ body {
 body {
   margin: 0px;
   padding: 0px;
+  background: #eaebef;
 }
 
 .header {
@@ -43,10 +44,10 @@ body {
     width: 100%;
     background: #fff;
     border-radius: 4px;
-    padding: 20px;
-    border: 1px solid #dedede;
+    padding: 30px;
+    border: 1px solid #cacaca;
     margin-bottom: 20px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 
     .post-header {
       display: flex;
@@ -64,17 +65,17 @@ body {
         flex-direction: column;
 
         strong {
-          font-family: Arial, Helvetica, sans-serif;
-          font-weight: bold;
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: 600;
           font-size: 14px;
           color: #7a7a7a;
-          margin-bottom: 5px;
+          margin-bottom: 2px;
         }
 
-        span {
-          font-family: Arial, Helvetica, sans-serif;
+        time {
+          font-family: "Source Sans Pro", sans-serif;
           color: #b1b1b1;
-          font-size: 13px;
+          font-size: 12px;
         }
       }
     }
@@ -89,7 +90,7 @@ body {
     }
 
     .post-body {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: "Source Sans Pro", sans-serif;
       font-size: 14px;
       color: #3c3c3c;
     }
